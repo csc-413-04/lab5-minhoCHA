@@ -25,6 +25,7 @@ class HomePage extends Component {
         };
     }
 
+    
     updateMessage(e) {
         this.setState({
             messageValue : e.target.value,
