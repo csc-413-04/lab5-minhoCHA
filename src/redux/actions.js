@@ -8,7 +8,7 @@ export const loadAllMessages = (messages) => ({
     messages,
 });
 
-export const importMessage = (messages) => ({
+export const importMessage = (message) => ({
     type: 'IMPORT_MESSAGE',
-    messages,
+    message,
 });
